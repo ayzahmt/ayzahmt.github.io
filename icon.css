@@ -66,6 +66,10 @@
     background: #861583;
   }
 
+  .footer-social ul li:nth-child(3) a:after{
+    background: #ffffff;
+  }
+
 .footer-social ul li:nth-child(4) a:before {
     background: #861583;
   }
