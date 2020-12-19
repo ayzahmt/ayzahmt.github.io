@@ -1,0 +1,309 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #373737;
+    position: relative
+}
+
+#body-wrap {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+button {
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+a {
+    color: #2c3e50;
+    font-size: 14px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1,
+.h1,
+.h2,
+.h3 {
+    font-weight: 400
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 70px
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 46px
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34px
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26px
+}
+
+p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+}
+
+blockquote {
+    color: #777
+}
+
+.font-700 {
+    font-weight: 700
+}
+
+.font-600 {
+    font-weight: 600
+}
+
+.font-500 {
+    font-weight: 500
+}
+
+.text-uppercase {
+    text-transform: uppercase
+}
+
+.bg-gray {
+    background-color: #f5f5f5
+}
+
+.color-white {
+    color: #fff
+}
+
+.color-gray {
+    color: #777
+}
+
+.color-base {
+    color: #3094f1
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.position-relative {
+    position: relative
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+
+.form-control {
+    border: 1px solid #e2e2e2;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0) inset;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) inset;
+    border-radius: 2px
+}
+
+.fix {
+    overflow: hidden
+}
+
+.m-0 {
+    margin: 0
+}
+
+.p-0 {
+    padding: 0
+}
+
+.dp-table {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.tbl-cell {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.full-height {
+    height: 100vh
+}
+
+.default-padding {
+    padding: 60px 0 80px;
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.large-btn {
+    margin: 60px 0 0;
+}
+
+.large-btn a {
+    border: 2px solid #fff;
+    padding: 12px 50px;
+    margin: 0 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.large-btn a.color-bg,
+.large-btn a:hover {
+    border-color: #3094f1;
+    background-color: #3094f1;
+}
+
+.large-btn a.color-bg:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #3094f1
+}
+
+/*-------------------------------------------------------------------------------------
+    
+---------------------------------------------------------------------------------------*/
+
+.navbar {
+    opacity: 0.9;
+}
+
+/*-------------------------------------------------------------------------------------
+    
+---------------------------------------------------------------------------------------*/
+
+.caption-content {
+    padding: 8% 10% 0;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+    
+---------------------------------------------------------------------------------------*/
+
+#particles-js {
+    background-image: url('img/4.jpg');
+}
+
+#particles-js .caption-content {
+    position: absolute;
+}
+
+#particles-js .caption-content .large-btn {
+    z-index: 99
+}
+
+#particles-js canvas {
+    position: relative;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    About
+---------------------------------------------------------------------------------------*/
+
+#about {
+    padding: 30px 0;
+}
+
+.about-img img {
+    border-radius: 25px;
+}
+
+.about-content h2 {
+    margin: 10px 0 15px
+}
+
+#footer {
+    background-color: black;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+    Footer
+---------------------------------------------------------------------------------------*/
+
+#footer {
+    background-color: #1A1E21;
+}
+
+.footer-top {
+    padding: 10px 0 0px
+}
+
+.footer-about h3 {
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    background-color: #131618;
+    padding: 0px 0;
+}
+
+#navbarCollapse a:hover {
+    background-color: rgb(204, 204, 204);
+    color: #861583;    
+    /* font-size: 10px; */
+    /* text-transform: uppercase; */
+    font-weight: bold;
+  }
