@@ -9,7 +9,7 @@ body {
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    color: #373737;
+    color: #373737;    
     position: relative
 }
 
@@ -241,7 +241,8 @@ blockquote {
 ---------------------------------------------------------------------------------------*/
 
 #particles-js {
-    background-image: url('img/4.jpg');
+    background-image: url('img1/3.jpg');
+    opacity: 0.9;
 }
 
 #particles-js .caption-content {
@@ -296,13 +297,13 @@ blockquote {
 }
 
 .footer-bottom {
-    background-color: #131618;
+    background-color: #131618;    
     padding: 0px 0;
 }
 
 #navbarCollapse a:hover {
-    background-color: rgb(204, 204, 204);
-    color: #861583;    
+    background-color: rgb(0, 0, 0);
+    color: #e0d208;    
     /* font-size: 10px; */
     /* text-transform: uppercase; */
     font-weight: bold;
