@@ -13,7 +13,7 @@
 .footer-social ul li a {
     width:  3.1rem;
     height: 3.1rem;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     line-height: 3rem;
     font-size: 1.5rem;
@@ -28,7 +28,7 @@
 
 .footer-social ul li a .icon {
     position: relative;
-    color: rgb(0, 0, 0);
+    color: #e0d208;
     transition: .5s;
     z-index: 3;
   }
